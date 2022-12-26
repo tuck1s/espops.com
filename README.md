@@ -1,2 +1,2 @@
 # espops.com
-A static site
+A static site built with Hugo
