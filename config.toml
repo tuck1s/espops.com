@@ -1,5 +1,5 @@
-baseURL = "/"
-title = "ESPOps.com"
+baseURL = "https://espops.com"
+title = "espops.com"
 
 # Language settings
 contentDir = "content/en"
