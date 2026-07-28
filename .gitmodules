@@ -1,0 +1,3 @@
+[submodule "source/themes/ananke-mod"]
+	path = source/themes/ananke-mod
+	url = https://github.com/tuck1s/gohugo-theme-ananke-mod
