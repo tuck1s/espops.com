@@ -1,2 +1,4 @@
+source/.DS_Store
 .DS_Store
-/node_modules/**
+source/public/
+source/.hugo_build.lock

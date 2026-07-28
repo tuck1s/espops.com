@@ -1,0 +1,27 @@
+baseURL = "https://espops.com"
+languageCode = "en-gb"
+title = "espops.com"
+author = "Steve Tuck"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+enableRobotsTXT = true
+copyright = "espops.com"
+
+theme = "ananke-mod"
+
+disableKinds = ["taxonomy", "term"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    url = "/"
+
+
+[params]
+  recent_posts_number = 0
+
+  background_color_class = "bg-mid-gray"
+  cover_dimming_class = "bg-black-40"
+  env = "production" # needed for robots.txt enabled
