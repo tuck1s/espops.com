@@ -5,7 +5,7 @@ author = "Steve Tuck"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 enableRobotsTXT = true
-copyright = "espops.com"
+copyright = "ESP Operations Ltd."
 
 theme = "ananke-mod"
 
@@ -21,6 +21,10 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   recent_posts_number = 0
+
+  site_logo = "/images/esp-operations-logo.png"
+  favicon = "/images/favicon-32x32.png"
+  company_number = "14727613"
 
   background_color_class = "bg-mid-gray"
   cover_dimming_class = "bg-black-40"

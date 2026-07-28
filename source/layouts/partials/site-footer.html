@@ -1,0 +1,17 @@
+<footer class="{{ .Site.Params.background_color_class | default " bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+    {{ partial "contact-us.html" . }}
+    <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}">
+      &copy; {{ now.Format "2006" }} {{ with .Site.Copyright | default .Site.Title }}{{ . | safeHTML }}{{ end }}
+    </a>
+    <div class="flex items-center">
+      {{ with .Site.Params.company_number }}
+      <span class="f4 fw4 white-70 dn dib-ns pv2 ph3">
+        Company no. {{ . }}
+      </span>
+      {{ end }}
+      {{ partial "social-follow.html" . }}
+    </div>
+    <!-- allow the contact items to distribute themselves using divisions-->
+  </div>
+</footer>
